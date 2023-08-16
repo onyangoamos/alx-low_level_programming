@@ -4,10 +4,8 @@
  *print_to_98 - Prints all natural numbers from n to 98
  *Return: Always 0
  */
-void print_to_98(void)
+void print_to_98(int n)
 {
-	int n;
-
 	if (n <= 98)
 	{
 		for (; n <= 98; n++)
