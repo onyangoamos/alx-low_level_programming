@@ -8,6 +8,15 @@ int main(void)
 	int i;
 
 	i = 0;
-	positive_or_negative(i);
+	if (i > 0)
+	{
+		printf("Positive: %d\n", i);
+	}
+	else if (i == 0)
+	{
+		printf("Is zero: %d\n", i);
+	}
+	else
+		printf("Is negative: %d\n", i);
 	return (0);
 }
