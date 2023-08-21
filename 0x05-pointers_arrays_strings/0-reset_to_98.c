@@ -5,13 +5,7 @@
  * the value it points to to 98
  * @n: A pointer to an int
  */
-void reset_to_98(void)
+void reset_to_98(int *n)
 {
-	int n;
-	int *p;
-
-	n = 98;
-	p = &n;
-
-	*p = 402;
+	*n = 98;
 }
