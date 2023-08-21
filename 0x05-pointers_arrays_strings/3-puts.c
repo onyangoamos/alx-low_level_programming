@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
- * main - Prints a string, followed by a new line, to stdout
+ * _puts - Prints a string, followed by a new line, to stdout
  * @str: The string
  */
-int main(void)
+void _puts(char *str)
 {
-	char *str ;
+	int i = 0;
 
-	str = "C is fun! I love it.";
-	_puts(str);
-	_puts('\n');
-	return (0);
+	for (; *str != '\0'; str++)
+	{
+		_putchar(*str);
+	}
+	_putchar('\n');
 }
