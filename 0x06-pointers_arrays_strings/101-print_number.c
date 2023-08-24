@@ -14,7 +14,7 @@ void print_number(int n)
 		n = -n;
 	}
 
-	print_uint((unsigned int) n);
+	print_uint((unsigned int)n);
 }
 
 /**
